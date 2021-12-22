@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308D2D7B817E1912A695DA41 /* Pods_Dong_gang_aji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F7614C8CE91C7106EBDB1 /* Pods_Dong_gang_aji.framework */; };
+		52133D96273CF0A1004D11EA /* AddDDongCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133D95273CF0A1004D11EA /* AddDDongCoordinator.swift */; };
+		52133D98273CF2BB004D11EA /* AddDDongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133D97273CF2BB004D11EA /* AddDDongViewController.swift */; };
+		52133D9A273CF334004D11EA /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133D99273CF334004D11EA /* ViewController+Extension.swift */; };
+		52133D9C273CFB59004D11EA /* AddDDongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133D9B273CFB59004D11EA /* AddDDongViewModel.swift */; };
+		52133D9F273D44BE004D11EA /* DDongTitleSubtitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133D9E273D44BE004D11EA /* DDongTitleSubtitleViewModel.swift */; };
+		52133DA2273D4512004D11EA /* DDongTitleSubtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DA1273D4512004D11EA /* DDongTitleSubtitleCell.swift */; };
+		52133DA4273D4B10004D11EA /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DA3273D4B10004D11EA /* TextField+Extension.swift */; };
+		52133DA6273FB298004D11EA /* ImagePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DA5273FB298004D11EA /* ImagePickerCoordinator.swift */; };
+		52133DA8273FBC2E004D11EA /* DDongCellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DA7273FBC2E004D11EA /* DDongCellBuilder.swift */; };
+		52133DAA2740B794004D11EA /* DDongCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DA92740B794004D11EA /* DDongCellViewModel.swift */; };
+		52133DAC2740B906004D11EA /* DDongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DAB2740B906004D11EA /* DDongCell.swift */; };
+		52133DAE2740BBF9004D11EA /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DAD2740BBF9004D11EA /* View+Extension.swift */; };
+		52133DB02740EDFB004D11EA /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DAF2740EDFB004D11EA /* Date+Extension.swift */; };
+		52133DB22741204F004D11EA /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DB12741204F004D11EA /* Image+Extension.swift */; };
+		52133DB427412579004D11EA /* DDongDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DB327412579004D11EA /* DDongDetailCoordinator.swift */; };
+		52133DB627412642004D11EA /* DDongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DB527412642004D11EA /* DDongDetailViewController.swift */; };
+		52133DB827412827004D11EA /* DDongDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DB727412827004D11EA /* DDongDetailViewModel.swift */; };
+		52133DBA27412E95004D11EA /* TimeRemainStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DB927412E95004D11EA /* TimeRemainStackView.swift */; };
+		52133DBC27412F72004D11EA /* TimeRemainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DBB27412F72004D11EA /* TimeRemainViewModel.swift */; };
+		52133DC227426BF5004D11EA /* DDongs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52133DC027426BF5004D11EA /* DDongs.xcdatamodeld */; };
+		52133DC4274391C5004D11EA /* EditCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DC3274391C5004D11EA /* EditCoordinator.swift */; };
+		52133DC627439328004D11EA /* EditDDongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DC527439328004D11EA /* EditDDongViewController.swift */; };
+		52133DC8274393D9004D11EA /* EditDDongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DC7274393D9004D11EA /* EditDDongViewModel.swift */; };
+		52133DCB2743B597004D11EA /* DDongService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52133DCA2743B597004D11EA /* DDongService.swift */; };
+		529CD6A8273A84740080AD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CD6A7273A84740080AD8D /* AppDelegate.swift */; };
+		529CD6AA273A84740080AD8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CD6A9273A84740080AD8D /* SceneDelegate.swift */; };
+		529CD6AF273A84740080AD8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529CD6AD273A84740080AD8D /* Main.storyboard */; };
+		529CD6B1273A84770080AD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529CD6B0273A84770080AD8D /* Assets.xcassets */; };
+		529CD6B4273A84770080AD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529CD6B2273A84770080AD8D /* LaunchScreen.storyboard */; };
+		529CD6BC273A84F10080AD8D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CD6BB273A84F10080AD8D /* Coordinator.swift */; };
+		529CD6BE273A87220080AD8D /* DongGangAjiCoordi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CD6BD273A87220080AD8D /* DongGangAjiCoordi.swift */; };
+		529CD6C0273A88F60080AD8D /* DongGangAjiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CD6BF273A88F60080AD8D /* DongGangAjiViewController.swift */; };
+		529CD6C2273A96FF0080AD8D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CD6C1273A96FF0080AD8D /* Color+Extension.swift */; };
+		529CD6C7273A9AC20080AD8D /* DongGangAjiCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CD6C6273A9AC20080AD8D /* DongGangAjiCoreData.swift */; };
+		529CD6C9273AA7EC0080AD8D /* DongGangAjiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CD6C8273AA7EC0080AD8D /* DongGangAjiViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09C116C5CC126D5B7E403225 /* Pods-Dong-gang-aji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dong-gang-aji.release.xcconfig"; path = "Target Support Files/Pods-Dong-gang-aji/Pods-Dong-gang-aji.release.xcconfig"; sourceTree = "<group>"; };
+		0B84767BF8649055BB1A185E /* Pods-Dong-gang-aji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dong-gang-aji.debug.xcconfig"; path = "Target Support Files/Pods-Dong-gang-aji/Pods-Dong-gang-aji.debug.xcconfig"; sourceTree = "<group>"; };
+		52133D95273CF0A1004D11EA /* AddDDongCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDDongCoordinator.swift; sourceTree = "<group>"; };
+		52133D97273CF2BB004D11EA /* AddDDongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDDongViewController.swift; sourceTree = "<group>"; };
+		52133D99273CF334004D11EA /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		52133D9B273CFB59004D11EA /* AddDDongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDDongViewModel.swift; sourceTree = "<group>"; };
+		52133D9E273D44BE004D11EA /* DDongTitleSubtitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDongTitleSubtitleViewModel.swift; sourceTree = "<group>"; };
+		52133DA1273D4512004D11EA /* DDongTitleSubtitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDongTitleSubtitleCell.swift; sourceTree = "<group>"; };
+		52133DA3273D4B10004D11EA /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		52133DA5273FB298004D11EA /* ImagePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinator.swift; sourceTree = "<group>"; };
+		52133DA7273FBC2E004D11EA /* DDongCellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDongCellBuilder.swift; sourceTree = "<group>"; };
+		52133DA92740B794004D11EA /* DDongCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDongCellViewModel.swift; sourceTree = "<group>"; };
+		52133DAB2740B906004D11EA /* DDongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDongCell.swift; sourceTree = "<group>"; };
+		52133DAD2740BBF9004D11EA /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		52133DAF2740EDFB004D11EA /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		52133DB12741204F004D11EA /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		52133DB327412579004D11EA /* DDongDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDongDetailCoordinator.swift; sourceTree = "<group>"; };
+		52133DB527412642004D11EA /* DDongDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDongDetailViewController.swift; sourceTree = "<group>"; };
+		52133DB727412827004D11EA /* DDongDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDongDetailViewModel.swift; sourceTree = "<group>"; };
+		52133DB927412E95004D11EA /* TimeRemainStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRemainStackView.swift; sourceTree = "<group>"; };
+		52133DBB27412F72004D11EA /* TimeRemainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRemainViewModel.swift; sourceTree = "<group>"; };
+		52133DC127426BF5004D11EA /* DDongs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DDongs.xcdatamodel; sourceTree = "<group>"; };
+		52133DC3274391C5004D11EA /* EditCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCoordinator.swift; sourceTree = "<group>"; };
+		52133DC527439328004D11EA /* EditDDongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDDongViewController.swift; sourceTree = "<group>"; };
+		52133DC7274393D9004D11EA /* EditDDongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDDongViewModel.swift; sourceTree = "<group>"; };
+		52133DCA2743B597004D11EA /* DDongService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDongService.swift; sourceTree = "<group>"; };
+		529CD6A4273A84740080AD8D /* Dong-gang-aji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dong-gang-aji.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		529CD6A7273A84740080AD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		529CD6A9273A84740080AD8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		529CD6AE273A84740080AD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		529CD6B0273A84770080AD8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		529CD6B3273A84770080AD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		529CD6B5273A84770080AD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529CD6BB273A84F10080AD8D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		529CD6BD273A87220080AD8D /* DongGangAjiCoordi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongGangAjiCoordi.swift; sourceTree = "<group>"; };
+		529CD6BF273A88F60080AD8D /* DongGangAjiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongGangAjiViewController.swift; sourceTree = "<group>"; };
+		529CD6C1273A96FF0080AD8D /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		529CD6C6273A9AC20080AD8D /* DongGangAjiCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongGangAjiCoreData.swift; sourceTree = "<group>"; };
+		529CD6C8273AA7EC0080AD8D /* DongGangAjiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongGangAjiViewModel.swift; sourceTree = "<group>"; };
+		AA2F7614C8CE91C7106EBDB1 /* Pods_Dong_gang_aji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dong_gang_aji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529CD6A1273A84740080AD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308D2D7B817E1912A695DA41 /* Pods_Dong_gang_aji.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D4AA26168B66C2ED065911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F7614C8CE91C7106EBDB1 /* Pods_Dong_gang_aji.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52133D92273CF055004D11EA /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				529CD6BB273A84F10080AD8D /* Coordinator.swift */,
+				529CD6BD273A87220080AD8D /* DongGangAjiCoordi.swift */,
+				52133D95273CF0A1004D11EA /* AddDDongCoordinator.swift */,
+				52133DA5273FB298004D11EA /* ImagePickerCoordinator.swift */,
+				52133DB327412579004D11EA /* DDongDetailCoordinator.swift */,
+				52133DC3274391C5004D11EA /* EditCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		52133D93273CF062004D11EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				529CD6BF273A88F60080AD8D /* DongGangAjiViewController.swift */,
+				52133D97273CF2BB004D11EA /* AddDDongViewController.swift */,
+				52133DB527412642004D11EA /* DDongDetailViewController.swift */,
+				52133DC527439328004D11EA /* EditDDongViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52133D94273CF076004D11EA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				529CD6C1273A96FF0080AD8D /* Color+Extension.swift */,
+				52133D99273CF334004D11EA /* ViewController+Extension.swift */,
+				52133DA3273D4B10004D11EA /* TextField+Extension.swift */,
+				52133DAD2740BBF9004D11EA /* View+Extension.swift */,
+				52133DAF2740EDFB004D11EA /* Date+Extension.swift */,
+				52133DB12741204F004D11EA /* Image+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52133D9D273D3C4D004D11EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				529CD6C8273AA7EC0080AD8D /* DongGangAjiViewModel.swift */,
+				52133D9B273CFB59004D11EA /* AddDDongViewModel.swift */,
+				52133D9E273D44BE004D11EA /* DDongTitleSubtitleViewModel.swift */,
+				52133DA92740B794004D11EA /* DDongCellViewModel.swift */,
+				52133DB727412827004D11EA /* DDongDetailViewModel.swift */,
+				52133DBB27412F72004D11EA /* TimeRemainViewModel.swift */,
+				52133DC7274393D9004D11EA /* EditDDongViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52133DA0273D44F6004D11EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52133DA1273D4512004D11EA /* DDongTitleSubtitleCell.swift */,
+				52133DAB2740B906004D11EA /* DDongCell.swift */,
+				52133DB927412E95004D11EA /* TimeRemainStackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52133DC92743B579004D11EA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				52133DCA2743B597004D11EA /* DDongService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		52133DCC2743C88D004D11EA /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				52133DA7273FBC2E004D11EA /* DDongCellBuilder.swift */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		52133DCD2743C89B004D11EA /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				529CD6C6273A9AC20080AD8D /* DongGangAjiCoreData.swift */,
+				52133DC027426BF5004D11EA /* DDongs.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		529CD69B273A84740080AD8D = {
+			isa = PBXGroup;
+			children = (
+				529CD6A6273A84740080AD8D /* Dong-gang-aji */,
+				529CD6A5273A84740080AD8D /* Products */,
+				C00ACCC6E33696116BD32902 /* Pods */,
+				09D4AA26168B66C2ED065911 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		529CD6A5273A84740080AD8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529CD6A4273A84740080AD8D /* Dong-gang-aji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529CD6A6273A84740080AD8D /* Dong-gang-aji */ = {
+			isa = PBXGroup;
+			children = (
+				52133DCD2743C89B004D11EA /* CoreData */,
+				52133DC92743B579004D11EA /* Services */,
+				52133DA0273D44F6004D11EA /* Views */,
+				52133D94273CF076004D11EA /* Extensions */,
+				52133D93273CF062004D11EA /* Controllers */,
+				52133D92273CF055004D11EA /* Coordinators */,
+				52133D9D273D3C4D004D11EA /* ViewModel */,
+				529CD6A7273A84740080AD8D /* AppDelegate.swift */,
+				529CD6A9273A84740080AD8D /* SceneDelegate.swift */,
+				529CD6AD273A84740080AD8D /* Main.storyboard */,
+				529CD6B0273A84770080AD8D /* Assets.xcassets */,
+				529CD6B2273A84770080AD8D /* LaunchScreen.storyboard */,
+				529CD6B5273A84770080AD8D /* Info.plist */,
+				52133DCC2743C88D004D11EA /* Builder */,
+			);
+			path = "Dong-gang-aji";
+			sourceTree = "<group>";
+		};
+		C00ACCC6E33696116BD32902 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B84767BF8649055BB1A185E /* Pods-Dong-gang-aji.debug.xcconfig */,
+				09C116C5CC126D5B7E403225 /* Pods-Dong-gang-aji.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		529CD6A3273A84740080AD8D /* Dong-gang-aji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529CD6B8273A84770080AD8D /* Build configuration list for PBXNativeTarget "Dong-gang-aji" */;
+			buildPhases = (
+				159796544E76B37BAD53B983 /* [CP] Check Pods Manifest.lock */,
+				529CD6A0273A84740080AD8D /* Sources */,
+				529CD6A1273A84740080AD8D /* Frameworks */,
+				529CD6A2273A84740080AD8D /* Resources */,
+				E38104E63C6F35E596B8DCB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dong-gang-aji";
+			productName = "Dong-gang-aji";
+			productReference = 529CD6A4273A84740080AD8D /* Dong-gang-aji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529CD69C273A84740080AD8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					529CD6A3273A84740080AD8D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 529CD69F273A84740080AD8D /* Build configuration list for PBXProject "Dong-gang-aji" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 529CD69B273A84740080AD8D;
+			productRefGroup = 529CD6A5273A84740080AD8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				529CD6A3273A84740080AD8D /* Dong-gang-aji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		529CD6A2273A84740080AD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529CD6B4273A84770080AD8D /* LaunchScreen.storyboard in Resources */,
+				529CD6B1273A84770080AD8D /* Assets.xcassets in Resources */,
+				529CD6AF273A84740080AD8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		159796544E76B37BAD53B983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dong-gang-aji-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38104E63C6F35E596B8DCB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dong-gang-aji/Pods-Dong-gang-aji-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dong-gang-aji/Pods-Dong-gang-aji-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dong-gang-aji/Pods-Dong-gang-aji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529CD6A0273A84740080AD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52133DC227426BF5004D11EA /* DDongs.xcdatamodeld in Sources */,
+				52133DA8273FBC2E004D11EA /* DDongCellBuilder.swift in Sources */,
+				52133DB02740EDFB004D11EA /* Date+Extension.swift in Sources */,
+				52133DBA27412E95004D11EA /* TimeRemainStackView.swift in Sources */,
+				52133DBC27412F72004D11EA /* TimeRemainViewModel.swift in Sources */,
+				52133DC4274391C5004D11EA /* EditCoordinator.swift in Sources */,
+				529CD6BC273A84F10080AD8D /* Coordinator.swift in Sources */,
+				52133DA2273D4512004D11EA /* DDongTitleSubtitleCell.swift in Sources */,
+				52133DB22741204F004D11EA /* Image+Extension.swift in Sources */,
+				529CD6C2273A96FF0080AD8D /* Color+Extension.swift in Sources */,
+				52133DCB2743B597004D11EA /* DDongService.swift in Sources */,
+				529CD6BE273A87220080AD8D /* DongGangAjiCoordi.swift in Sources */,
+				52133D9A273CF334004D11EA /* ViewController+Extension.swift in Sources */,
+				529CD6C7273A9AC20080AD8D /* DongGangAjiCoreData.swift in Sources */,
+				52133D96273CF0A1004D11EA /* AddDDongCoordinator.swift in Sources */,
+				52133DAA2740B794004D11EA /* DDongCellViewModel.swift in Sources */,
+				52133DAC2740B906004D11EA /* DDongCell.swift in Sources */,
+				52133DA6273FB298004D11EA /* ImagePickerCoordinator.swift in Sources */,
+				52133D98273CF2BB004D11EA /* AddDDongViewController.swift in Sources */,
+				52133D9C273CFB59004D11EA /* AddDDongViewModel.swift in Sources */,
+				52133DB627412642004D11EA /* DDongDetailViewController.swift in Sources */,
+				52133DA4273D4B10004D11EA /* TextField+Extension.swift in Sources */,
+				529CD6C0273A88F60080AD8D /* DongGangAjiViewController.swift in Sources */,
+				52133DB427412579004D11EA /* DDongDetailCoordinator.swift in Sources */,
+				529CD6A8273A84740080AD8D /* AppDelegate.swift in Sources */,
+				52133D9F273D44BE004D11EA /* DDongTitleSubtitleViewModel.swift in Sources */,
+				529CD6C9273AA7EC0080AD8D /* DongGangAjiViewModel.swift in Sources */,
+				52133DAE2740BBF9004D11EA /* View+Extension.swift in Sources */,
+				52133DB827412827004D11EA /* DDongDetailViewModel.swift in Sources */,
+				529CD6AA273A84740080AD8D /* SceneDelegate.swift in Sources */,
+				52133DC627439328004D11EA /* EditDDongViewController.swift in Sources */,
+				52133DC8274393D9004D11EA /* EditDDongViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		529CD6AD273A84740080AD8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529CD6AE273A84740080AD8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		529CD6B2273A84770080AD8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529CD6B3273A84770080AD8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		529CD6B6273A84770080AD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		529CD6B7273A84770080AD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		529CD6B9273A84770080AD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B84767BF8649055BB1A185E /* Pods-Dong-gang-aji.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26T576KMAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dong-gang-aji/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinseong.Dong-gang-aji";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		529CD6BA273A84770080AD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C116C5CC126D5B7E403225 /* Pods-Dong-gang-aji.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26T576KMAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dong-gang-aji/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinseong.Dong-gang-aji";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		529CD69F273A84740080AD8D /* Build configuration list for PBXProject "Dong-gang-aji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529CD6B6273A84770080AD8D /* Debug */,
+				529CD6B7273A84770080AD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529CD6B8273A84770080AD8D /* Build configuration list for PBXNativeTarget "Dong-gang-aji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529CD6B9273A84770080AD8D /* Debug */,
+				529CD6BA273A84770080AD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52133DC027426BF5004D11EA /* DDongs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52133DC127426BF5004D11EA /* DDongs.xcdatamodel */,
+			);
+			currentVersion = 52133DC127426BF5004D11EA /* DDongs.xcdatamodel */;
+			path = DDongs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 529CD69C273A84740080AD8D /* Project object */;
+}

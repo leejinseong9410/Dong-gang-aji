@@ -1,0 +1,6 @@
+framework module Pods_Dong_gang_aji {
+  umbrella header "Pods-Dong-gang-aji-umbrella.h"
+
+  export *
+  module * { export * }
+}
